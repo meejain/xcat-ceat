@@ -1,0 +1,40 @@
+{
+  "variantName": "cards-product",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-01-14T16:30:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.ceat.com/",
+    "originPage": "CEAT homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "product-cards",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image + heading + description + link",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "product category pages",
+      "feature showcases",
+      "content teasers",
+      "travel destinations",
+      "CTA action cards"
+    ],
+    "notSuitableFor": [
+      "text-only lists",
+      "icon-based feature lists"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/content/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-01-14T16:30:00.000Z"
+  }
+}

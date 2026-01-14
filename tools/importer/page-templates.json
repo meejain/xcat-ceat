@@ -1,0 +1,60 @@
+{
+  "templates": [
+    {
+      "name": "ceat-homepage",
+      "urls": ["https://www.ceat.com/"],
+      "description": "CEAT homepage template with hero carousel, product cards, warranty banner, testimonials, FAQ, and CTA sections",
+      "blocks": [
+        {
+          "name": "carousel-hero",
+          "selector": ".hero-banner-carousel, .swiper-wrapper, [class*='hero-banner']",
+          "description": "Hero banner carousel with product launches"
+        },
+        {
+          "name": "cards-product",
+          "selector": ".cmp-teaser, .card-teaser, [class*='teaser']",
+          "description": "Product category cards with images and descriptions"
+        },
+        {
+          "name": "hero-banner",
+          "selector": ".banner-teaser, [class*='banner-card']",
+          "description": "Full-width promotional banner"
+        },
+        {
+          "name": "carousel-hero-testimonials",
+          "selector": ".testimonial-section, [class*='testimonial']",
+          "description": "Expert testimonial carousel"
+        },
+        {
+          "name": "accordion-faq",
+          "selector": ".faq-accordion, .cmp-accordion",
+          "description": "FAQ accordion section"
+        },
+        {
+          "name": "section-product-categories",
+          "section": true,
+          "selector": "[class*='product-category'], .cmp-title + .card-teaser",
+          "description": "Product categories section container"
+        },
+        {
+          "name": "section-beyond-horizon",
+          "section": true,
+          "selector": ".instagram-stories, .crosstrail-stories",
+          "description": "Beyond That Horizon travel stories section"
+        },
+        {
+          "name": "section-trusted-companies",
+          "section": true,
+          "selector": "[class*='trusted'], .logo-carousel",
+          "description": "Trusted by companies logo carousel section"
+        },
+        {
+          "name": "section-faq",
+          "section": true,
+          "selector": ".faq-sec, [class*='faq']",
+          "description": "FAQ section container"
+        }
+      ]
+    }
+  ]
+}
