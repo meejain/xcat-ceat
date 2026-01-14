@@ -1,0 +1,39 @@
+{
+  "variantName": "hero-banner",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-01-14T16:30:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.ceat.com/",
+    "originPage": "CEAT homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "accent",
+    "density": "spacious",
+    "purpose": "promotional-banner",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "background image + heading + badge + CTA",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "promotional banners",
+      "warranty sections",
+      "call-to-action banners",
+      "announcement sections"
+    ],
+    "notSuitableFor": [
+      "simple page headers",
+      "text-only sections"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/content/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-01-14T16:30:00.000Z"
+  }
+}
